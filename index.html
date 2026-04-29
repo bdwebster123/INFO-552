@@ -8,6 +8,7 @@
             background-color: ivory;
             font-family: Georgia, serif;
             margin: 20px;
+            margin-top: 70px;
         }
 
         h1 {
@@ -38,9 +39,53 @@
         a {
             color: darkgreen;
         }
+
+        /* Horizontal Navigation Bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: darkgreen;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-size: 16px;
+            border-bottom: 2px solid #013220;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: ivory;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover:not(.active) {
+            background-color: olivedrab;
+            color: ivory;
+        }
+
+        ul.navbar li a.active {
+            background-color: olivedrab;
+        }
     </style>
 </head>
 <body>
+
+<!-- Horizontal Navigation Bar -->
+<ul class="navbar">
+    <li><a class="active" href="index.html">Appetizers</a></li>
+    <li><a href="main-courses.html">Main Courses</a></li>
+    <li><a href="desserts.html">Desserts</a></li>
+    <li><a href="beverages.html">Beverages</a></li>
+</ul>
 
 <h1>Zero Waste Mixed Herb Stem Salsa Verde</h1>
 
