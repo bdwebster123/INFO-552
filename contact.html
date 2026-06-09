@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact / Feedback — West Baltimore College Pathways</title>
+  <meta name="description" content="Suggest a resource, report a broken link, or send feedback about this site.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="nav">
+        <a class="nav-brand" href="index.html">
+          <span class="nav-brand-mark">WB</span>
+          <span>West Baltimore<br>College Pathways</span>
+        </a>
+        <button class="nav-toggle">
+          <span>☰</span> Menu
+        </button>
+      </div>
+      <ul class="nav-menu" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="start-here.html">Start Here</a></li>
+        <li><a href="pay-for-college.html">Pay for College</a></li>
+        <li><a href="get-help-applying.html">Get Help Applying</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="tutoring.html">Tutoring</a></li>
+        <li><a href="deadlines.html">Deadlines</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <p class="breadcrumbs"><a href="index.html">Home</a> &rsaquo; Contact / Feedback</p>
+      <h1>Contact &amp; Feedback</h1>
+      <p class="lede">Suggest a resource we should add, report a broken link, or just send a note. Your feedback keeps this site useful for other students.</p>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="layout-two-col">
+
+          <div class="col-main">
+
+            <h2>Send us a message</h2>
+            <p>Use this form to share feedback or suggest a resource. Required fields are marked with an&nbsp;asterisk.</p>
+
+            <form class="form" action="#" method="post">
+              <div class="form-row">
+                <label for="name">Your name <span>*</span></label>
+                <input type="text" id="name" name="name" required>
+                <p class="form-help">First name is fine.</p>
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" name="email" required>
+                <p class="form-help">We&rsquo;ll only use this to follow up on your message.</p>
+              </div>
+
+              <div class="form-row">
+                <label for="role">I am a&hellip;</label>
+                <select id="role" name="role">
+                  <option value="">Choose one (optional)</option>
+                  <option>High school student</option>
+                  <option>Parent or guardian</option>
+                  <option>School counselor or teacher</option>
+                  <option>Community organization</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="topic">What&rsquo;s your message about? <span>*</span></label>
+                <select id="topic" name="topic" required>
+                  <option value="">Choose one</option>
+                  <option>Suggest a resource</option>
+                  <option>Report a broken link</option>
+                  <option>General feedback</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Your message <span>*</span></label>
+                <textarea id="message" name="message" required placeholder="Tell us about the resource or what we should fix."></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-primary">Send message</button>
+              </div>
+            </form>
+
+            <p style="margin-top: 24px; color: var(--color-text-muted); font-size: 0.9rem;">This is a student project. Form submissions are not currently sent anywhere &mdash; this page demonstrates the planned feedback path.</p>
+
+          </div>
+
+          <aside class="col-side">
+            <div class="sidebar-box">
+              <h3>Other ways to get help</h3>
+              <p style="margin: 0 0 12px 0; font-size: 0.95rem;">If you&rsquo;re looking for one-on-one advising, the fastest path is:</p>
+              <ul>
+                <li>Your school counselor</li>
+                <li>Your <a href="programs.html#collegebound">CollegeBound</a> advisor at&nbsp;school</li>
+                <li>Your local <a href="https://www.prattlibrary.org" target="_blank" rel="noopener">Pratt Library</a> branch</li>
+              </ul>
+            </div>
+            <div class="sidebar-box" style="background: var(--color-gold-soft); border-color: var(--color-gold);">
+              <h3 style="color: #8B6914;">In a mental-health crisis?</h3>
+              <p style="margin: 0; font-size: 0.95rem;">Call or text <strong>988</strong> for the Suicide &amp; Crisis Lifeline. Available 24/7, in English and Spanish.</p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-brand">
+          <div class="footer-brand">
+            <span class="nav-brand-mark">WB</span>
+            West Baltimore<br>College Pathways
+          </div>
+          <p style="margin:0; color: rgba(255,255,255,0.7); font-size: 0.9rem;">A community information site for first-generation college-bound students in ZIP codes 21216 and 21217.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Plan</h4>
+          <ul>
+            <li><a href="start-here.html">Start Here</a></li>
+            <li><a href="grade-checklist.html">Grade-by-grade checklist</a></li>
+            <li><a href="deadlines.html">Deadlines</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Apply &amp; pay</h4>
+          <ul>
+            <li><a href="pay-for-college.html">Pay for College</a></li>
+            <li><a href="get-help-applying.html">Get Help Applying</a></li>
+            <li><a href="programs.html">Programs Near You</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="tutoring.html">Tutoring &amp; Support</a></li>
+            <li><a href="resources.html">Resource Directory</a></li>
+            <li><a href="contact.html">Contact / Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 West Baltimore College Pathways. All rights reserved.</span>
+        <span>Photos via Pexels (free license).</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
